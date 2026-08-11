@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "firstName": "Jayprakash",
+    "lastName": "Gurjar",
+    "role": "Frontend Developer",
+    "tagline": "Building seamless user experiences with modern tech.",
+    "bio": "Frontend Developer & aspiring Full Stack Engineer based in India. Currently building high-impact software solutions at Docusoft India.",
+    "aboutMain": "I am a passionate Frontend Developer with a keen eye for detail and a drive for creating intuitive, performant user interfaces. With a strong foundation in modern web technologies, I focus on building responsive applications that provide seamless user experiences across all devices.",
+    "aboutSub": "Beyond standard frontend development, I am actively expanding my horizon into Full Stack development, learning to bridge the gap between complex backend logic and beautiful frontend presentation.",
+    "experienceYears": "2+",
+    "projectsDelivered": "20+",
+    "location": "Indore, India",
+    "email": "jaygurjar612@gmail.com",
+    "phone": "+91 9893981863",
+    "github": "https://github.com/jayprakash",
+    "linkedin": "https://linkedin.com/in/jayprakash",
+    "profileImage": "/profile.jpg",
+    "resumeUrl": "/resume.pdf"
+  },
+  "skills": [
+    {
+      "name": "React.js",
+      "category": "frontend"
+    },
+    {
+      "name": "JavaScript (ES6+)",
+      "category": "frontend"
+    },
+    {
+      "name": "HTML5/CSS3",
+      "category": "frontend"
+    },
+    {
+      "name": "Redux",
+      "category": "state"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "styling"
+    },
+    {
+      "name": "TypeScript",
+      "category": "frontend"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Practice Management Platform",
+      "description": "Comprehensive practice management platform for client management, invoicing, workflow automation, and business operations.",
+      "tech": [
+        "HTML5/CSS3",
+        "DevExtreme Data Grid",
+        "Third Party API"
+      ],
+      "imageUrl": "/crm_image.svg",
+      "link": "https://accountancy.mydocusoft.com/"
+    },
+    {
+      "title": "HRM System",
+      "description": "A Human Resource Management system for Docusoft that handles employee data, attendance tracking, leave management, document storage, and holiday calendars.",
+      "tech": [
+        "React",
+        "Redux",
+        "JavaScript",
+        "Node.js"
+      ],
+      "imageUrl": "/docusoft_hrm.png",
+      "link": "#"
+    },
+    {
+      "title": "Analytics Dashboard",
+      "description": "Real-time data visualization dashboard for tracking business metrics and user performance.",
+      "tech": [
+        "React",
+        "Recharts",
+        "TypeScript"
+      ],
+      "imageUrl": "/project2.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Task Manager",
+      "description": "Collaborative project management tool with Kanban boards and real-time updates.",
+      "tech": [
+        "Next.js",
+        "Firebase",
+        "Tailwind"
+      ],
+      "imageUrl": "/project3.jpg",
+      "link": "#"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Docusoft India Private Limited",
+      "role": "Frontend Developer",
+      "period": "2022 - Present",
+      "description": "Developing and maintaining complex frontend applications using React.js. Implementing responsive designs and optimizing web performance for enterprise clients."
+    },
+    {
+      "company": "TechNexus Solutions",
+      "role": "Junior Web Developer",
+      "period": "2021 - 2022",
+      "description": "Assisted in building UI components for various client projects using HTML, CSS, and jQuery. Collaborated with designers to ensure high-quality visual implementation."
+    }
+  ]
+}

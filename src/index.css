@@ -1,0 +1,85 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 210 10% 7%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 10% 7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 10% 7%;
+    --primary: 224 100% 58%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 15% 90%;
+    --secondary-foreground: 210 10% 7%;
+    --muted: 210 15% 94%;
+    --muted-foreground: 210 10% 40%;
+    --accent: 189 97% 45%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 224 100% 58%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    --background: 210 9% 7%;
+    --foreground: 210 20% 98%;
+    --card: 210 10% 10%;
+    --card-foreground: 210 20% 98%;
+    --popover: 210 10% 8%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 224 100% 58%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 10% 15%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 210 10% 18%;
+    --muted-foreground: 210 10% 70%;
+    --accent: 189 97% 71%;
+    --accent-foreground: 210 9% 7%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 210 10% 18%;
+    --input: 210 10% 18%;
+    --ring: 224 100% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+.glass {
+  @apply bg-background/60 backdrop-blur-md border-b border-border/50;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
+
+.nav-link {
+  @apply relative py-1 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 h-0.5 w-0 bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-foreground;
+}

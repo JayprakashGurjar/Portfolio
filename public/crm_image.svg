@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Background -->
+  <rect width="600" height="400" rx="18" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="1"/>
+  
+  <!-- Header bar -->
+  <rect x="20" y="16" width="560" height="40" rx="10" fill="#111111"/>
+  <circle cx="40" cy="36" r="4" fill="#D42027"/>
+  <circle cx="54" cy="36" r="4" fill="#FFB800"/>
+  <circle cx="68" cy="36" r="4" fill="#2FB344"/>
+  <text x="100" y="40" font-family="system-ui" font-weight="600" font-size="12" fill="#FFFFFF">Practice Manager</text>
+  
+  <!-- Client card (main focus) -->
+  <rect x="20" y="70" width="320" height="310" rx="14" fill="#F7F8FA"/>
+  
+  <!-- Client avatar and name -->
+  <rect x="36" y="86" width="40" height="40" rx="10" fill="#D42027"/>
+  <text x="56" y="111" font-family="system-ui" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle">JD</text>
+  <text x="88" y="100" font-family="system-ui" font-weight="600" font-size="13" fill="#111111">John Davidson</text>
+  <text x="88" y="116" font-family="system-ui" font-size="10" fill="#777777">Client since 2019</text>
+  <rect x="280" y="88" width="44" height="20" rx="6" fill="#2FB344" opacity="0.12"/>
+  <text x="289" y="102" font-family="system-ui" font-weight="600" font-size="8" fill="#2FB344">ACTIVE</text>
+  
+  <!-- Client info rows -->
+  <rect x="36" y="140" width="288" height="36" rx="8" fill="#FFFFFF"/>
+  <text x="52" y="163" font-family="system-ui" font-weight="500" font-size="11" fill="#111111">Documents</text>
+  <text x="260" y="163" font-family="system-ui" font-weight="600" font-size="11" fill="#111111">47</text>
+  
+  <rect x="36" y="182" width="288" height="36" rx="8" fill="#FFFFFF"/>
+  <text x="52" y="205" font-family="system-ui" font-weight="500" font-size="11" fill="#111111">Outstanding Tasks</text>
+  <text x="260" y="205" font-family="system-ui" font-weight="600" font-size="11" fill="#D42027">3</text>
+  
+  <rect x="36" y="224" width="288" height="36" rx="8" fill="#FFFFFF"/>
+  <text x="52" y="247" font-family="system-ui" font-weight="500" font-size="11" fill="#111111">Time Recorded (This Month)</text>
+  <text x="240" y="247" font-family="system-ui" font-weight="600" font-size="11" fill="#111111">12h 30m</text>
+  
+  <rect x="36" y="266" width="288" height="36" rx="8" fill="#FFFFFF"/>
+  <text x="52" y="289" font-family="system-ui" font-weight="500" font-size="11" fill="#111111">Portal Messages</text>
+  <text x="260" y="289" font-family="system-ui" font-weight="600" font-size="11" fill="#D42027">2</text>
+  
+  <!-- Action buttons -->
+  <rect x="36" y="316" width="88" height="32" rx="8" fill="#D42027"/>
+  <text x="80" y="336" font-family="system-ui" font-weight="600" font-size="9" fill="#FFFFFF" text-anchor="middle">New Task</text>
+  <rect x="134" y="316" width="88" height="32" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="1"/>
+  <text x="178" y="336" font-family="system-ui" font-weight="600" font-size="9" fill="#111111" text-anchor="middle">Send Doc</text>
+  <rect x="232" y="316" width="88" height="32" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="1"/>
+  <text x="276" y="336" font-family="system-ui" font-weight="600" font-size="9" fill="#111111" text-anchor="middle">Time Entry</text>
+  
+  <!-- Side modules -->
+  <rect x="356" y="70" width="224" height="70" rx="12" fill="#F7F8FA"/>
+  <rect x="372" y="86" width="24" height="24" rx="6" fill="#D42027" opacity="0.1"/>
+  <text x="380" y="101" font-family="system-ui" font-weight="700" font-size="14" fill="#D42027" text-anchor="middle">W</text>
+  <text x="404" y="94" font-family="system-ui" font-weight="600" font-size="11" fill="#111111">Workflows</text>
+  <text x="404" y="108" font-family="system-ui" font-size="9" fill="#777777">3 active processes</text>
+  <rect x="540" y="86" width="24" height="14" rx="4" fill="#D42027"/>
+  <text x="546" y="96" font-family="system-ui" font-weight="700" font-size="8" fill="#FFFFFF">2</text>
+  
+  <rect x="356" y="152" width="224" height="70" rx="12" fill="#F7F8FA"/>
+  <rect x="372" y="168" width="24" height="24" rx="6" fill="#2FB344" opacity="0.1"/>
+  <text x="380" y="183" font-family="system-ui" font-weight="700" font-size="14" fill="#2FB344" text-anchor="middle">$</text>
+  <text x="404" y="176" font-family="system-ui" font-weight="600" font-size="11" fill="#111111">Time Records</text>
+  <text x="404" y="190" font-family="system-ui" font-size="9" fill="#777777">Billable: 8h 45m this week</text>
+  
+  <rect x="356" y="234" width="224" height="70" rx="12" fill="#F7F8FA"/>
+  <rect x="372" y="250" width="24" height="24" rx="6" fill="#FFB800" opacity="0.1"/>
+  <text x="380" y="265" font-family="system-ui" font-weight="700" font-size="14" fill="#FFB800" text-anchor="middle">@</text>
+  <text x="404" y="258" font-family="system-ui" font-weight="600" font-size="11" fill="#111111">Email Triage</text>
+  <text x="404" y="272" font-family="system-ui" font-size="9" fill="#777777">24 unread, 12 to action</text>
+  <rect x="540" y="266" width="24" height="14" rx="4" fill="#D42027"/>
+  <text x="546" y="276" font-family="system-ui" font-weight="700" font-size="8" fill="#FFFFFF">12</text>
+  
+  <!-- Bottom integration bar -->
+  <rect x="356" y="320" width="224" height="60" rx="12" fill="#111111"/>
+  <text x="468" y="342" font-family="system-ui" font-weight="600" font-size="10" fill="#FFFFFF" opacity="0.7" text-anchor="middle">Integrations</text>
+  <rect x="376" y="352" width="30" height="16" rx="4" fill="#FFFFFF" opacity="0.1"/>
+  <text x="391" y="363" font-family="system-ui" font-weight="600" font-size="7" fill="#FFFFFF" text-anchor="middle">XERO</text>
+  <rect x="414" y="352" width="30" height="16" rx="4" fill="#FFFFFF" opacity="0.1"/>
+  <text x="429" y="363" font-family="system-ui" font-weight="600" font-size="7" fill="#FFFFFF" text-anchor="middle">QB</text>
+  <rect x="452" y="352" width="40" height="16" rx="4" fill="#FFFFFF" opacity="0.1"/>
+  <text x="472" y="363" font-family="system-ui" font-weight="600" font-size="7" fill="#FFFFFF" text-anchor="middle">M365</text>
+  <rect x="500" y="352" width="30" height="16" rx="4" fill="#FFFFFF" opacity="0.1"/>
+  <text x="515" y="363" font-family="system-ui" font-weight="600" font-size="7" fill="#FFFFFF" text-anchor="middle">STR</text>
+</svg>
