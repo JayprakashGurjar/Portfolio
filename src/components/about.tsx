@@ -46,6 +46,9 @@ export function About() {
                   <p className="text-xs uppercase tracking-wider font-medium">Projects</p>
                 </div> */}
               </div>
+                <a href={personal.resumeUrl} download="Jayprakash_Gurjar_Resume.pdf" className="mt-4 inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-primary/80 transition-colors">
+                  Download Resume
+                </a>
             </div>
           </div>
         </div>
