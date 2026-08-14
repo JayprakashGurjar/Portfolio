@@ -26,7 +26,7 @@ export function About() {
                 Currently working at <span className="text-foreground font-semibold">{personal.company || "Docusoft India"}</span>, where I develop enterprise-level applications and have hands-on experience integrating third-party APIs such as QuickBooks, Xero, Stripe, Twilio, Calandy, HubSpot, GoCardless, IRIS, and Free Agent Capital.
               </p>
 
-              <div className="my-8 flex justify-center">
+              {/* <div className="my-8 flex justify-center">
                 <img
                   src="/hrm_image.svg"
                   alt="CRM platform with Twilio WhatsApp integration"
@@ -34,7 +34,7 @@ export function About() {
                   height={400}
                   className="rounded-xl shadow-lg object-cover"
                 />
-              </div>
+              </div> */}
 
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="p-4 bg-background rounded-2xl border border-border/50 text-center shadow-sm">
