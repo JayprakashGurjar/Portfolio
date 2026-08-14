@@ -68,26 +68,15 @@
       "link": "#"
     },
     {
-      "title": "Analytics Dashboard",
-      "description": "Real-time data visualization dashboard for tracking business metrics and user performance.",
+      "title": "WhatsApp Communication System",
+      "description": "Integrated Twilio WhatsApp API with Docusoft Practice to enable real-time messaging, two-way WhatsApp communication, and direct document sharing with clients — all from within the platform..",
       "tech": [
         "React",
         "Recharts",
         "TypeScript"
       ],
-      "imageUrl": "/project2.jpg",
-      "link": "#"
-    },
-    {
-      "title": "Task Manager",
-      "description": "Collaborative project management tool with Kanban boards and real-time updates.",
-      "tech": [
-        "Next.js",
-        "Firebase",
-        "Tailwind"
-      ],
-      "imageUrl": "/project3.jpg",
-      "link": "#"
+      "imageUrl": "/docusoft_chat.png",
+      "link": "https://conversation.docuengager.com/"
     }
   ],
   "experience": [
