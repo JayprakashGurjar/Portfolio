@@ -1,4 +1,3 @@
-
 const experiences = [
   {
     company: "Docusoft India Private Limited",
@@ -35,7 +34,7 @@ export function Experience() {
               <div key={index} className={`relative flex flex-col md:flex-row items-start ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
                 {/* Timeline Dot */}
                 <div className="absolute left-0 top-2 w-9 h-9 rounded-full bg-background border-4 border-primary z-10 md:left-1/2 md:-translate-x-1/2" />
-                
+
                 {/* Content Card */}
                 <div className={`ml-12 md:ml-0 md:w-[45%] p-8 bg-muted/30 rounded-2xl border border-border/50 hover:border-primary/30 transition-all ${index % 2 !== 0 ? 'md:mr-12' : 'md:ml-12'}`}>
                   <span className="text-primary font-code text-sm font-bold block mb-2">{exp.period}</span>
