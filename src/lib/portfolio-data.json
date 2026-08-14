@@ -50,7 +50,7 @@
       "tech": [
         "HTML5/CSS3",
         "DevExtreme Data Grid",
-        "Third Party API"
+        "Third Party AP I"
       ],
       "imageUrl": "/crm_image.svg",
       "link": "https://accountancy.mydocusoft.com/"
@@ -72,8 +72,9 @@
       "description": "Integrated Twilio WhatsApp API with Docusoft Practice to enable real-time messaging, two-way WhatsApp communication, and direct document sharing with clients — all from within the platform..",
       "tech": [
         "React",
-        "Recharts",
-        "TypeScript"
+        "Twilio Api",
+        "JavaScript (ES6+)",
+        "MUI"
       ],
       "imageUrl": "/docusoft_chat.png",
       "link": "https://conversation.docuengager.com/"
